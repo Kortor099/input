@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 const StyledInput = styled.input `
   height : 15px;
   margin : 10px;
   width : 90px;
   text-align: center;
-`
+`;
 
 function StarDisplay() {
   const [numStar, setNumStar] = useState(0);
